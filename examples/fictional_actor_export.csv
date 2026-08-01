@@ -1,0 +1,4 @@
+recordId,businessName,legalName,address,zip,neighborhood,licenseNumber,issuedDate,applicationCreatedDate,licenseStartDate
+9000001-20260620,Sample Kitchen Test,SAMPLE KITCHEN TEST LLC,1 Example Plaza,60601,LOOP,9000001,2026-06-20,2026-06-01,2026-06-20
+9000002-20260605,Demo Noodle House,DEMO NOODLE HOUSE LLC,22 Fictional Ave,60618,AVONDALE,9000002,2026-06-05,2026-05-18,2026-06-05
+9000006-20260701,Rehearsal Ramen Bar,REHEARSAL RAMEN BAR LLC,930 Trial Terrace,60640,UPTOWN,9000006,2026-07-01,2026-06-14,2026-07-01

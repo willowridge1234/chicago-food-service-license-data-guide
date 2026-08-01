@@ -1,0 +1,7 @@
+source_schema,license_number,business_name,legal_name,address,zip_code,neighborhood,application_type,license_status,application_created_date,license_start_date,date_issued,is_new_issuance,name_key,address_key,dedupe_key
+city_portal,9000001,Sample Kitchen Test,SAMPLE KITCHEN TEST LLC,1 Example Plaza,60601,LOOP,ISSUE,AAI,2026-06-01,2026-06-20,2026-06-20,True,sample kitchen test,1 example plaza 60601,license:9000001
+city_portal,9000002,Demo Noodle House,DEMO NOODLE HOUSE LLC,22 Fictional Ave,60618,AVONDALE,ISSUE,AAI,2026-05-18,2026-06-05,2026-06-05,True,demo noodle house,22 fictional ave 60618,license:9000002
+city_portal,9000003,PLACEHOLDER BAKERY INC,PLACEHOLDER BAKERY INC,88 Sandbox St,60614,LINCOLN PARK,ISSUE,AAI,2026-05-02,2026-05-22,2026-05-22,True,placeholder bakery inc,88 sandbox st 60614,license:9000003
+city_portal,9000004,Legacy Demo Diner,LEGACY DEMO DINER LLC,410 Practice Blvd,60622,WEST TOWN,RENEW,AAI,,2026-07-01,2026-06-28,False,legacy demo diner,410 practice blvd 60622,license:9000004
+city_portal,9000005,Closed Test Taqueria,CLOSED TEST TAQUERIA LLC,77 Rehearsal Rd,60608,PILSEN,ISSUE,AAC,2026-04-10,2026-04-30,2026-04-30,False,closed test taqueria,77 rehearsal rd 60608,license:9000005
+city_portal,,Unlicensed Sample Cafe,UNLICENSED SAMPLE CAFE LLC,5 Notional Ct,60647,LOGAN SQUARE,ISSUE,AAI,2026-06-10,2026-06-25,2026-06-25,True,unlicensed sample cafe,5 notional ct 60647,premises:unlicensed sample cafe:5 notional ct 60647:2026-06-25

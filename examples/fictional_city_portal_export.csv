@@ -1,0 +1,8 @@
+license_number,legal_name,doing_business_as_name,address,zip_code,neighborhood,license_code,license_description,application_type,license_status,application_created_date,license_start_date,date_issued
+9000001,SAMPLE KITCHEN TEST LLC,Sample Kitchen Test,1 Example Plaza,60601,LOOP,1006,Retail Food Establishment,ISSUE,AAI,2026-06-01,2026-06-20,2026-06-20
+9000001,SAMPLE KITCHEN TEST LLC,Sample Kitchen Test,1 Example Plaza,60601,LOOP,1006,Retail Food Establishment,ISSUE,AAI,2026-06-01,2026-06-20,2026-06-20
+9000002,DEMO NOODLE HOUSE LLC,Demo Noodle House,22 Fictional Ave,60618,AVONDALE,1006,Retail Food Establishment,ISSUE,AAI,2026-05-18,2026-06-05,2026-06-05
+9000003,PLACEHOLDER BAKERY INC,,88 Sandbox St,60614,LINCOLN PARK,1006,Retail Food Establishment,ISSUE,AAI,2026-05-02,2026-05-22,2026-05-22
+9000004,LEGACY DEMO DINER LLC,Legacy Demo Diner,410 Practice Blvd,60622,WEST TOWN,1006,Retail Food Establishment,RENEW,AAI,,2026-07-01,2026-06-28
+9000005,CLOSED TEST TAQUERIA LLC,Closed Test Taqueria,77 Rehearsal Rd,60608,PILSEN,1006,Retail Food Establishment,ISSUE,AAC,2026-04-10,2026-04-30,2026-04-30
+,UNLICENSED SAMPLE CAFE LLC,Unlicensed Sample Cafe,5 Notional Ct,60647,LOGAN SQUARE,1006,Retail Food Establishment,ISSUE,AAI,2026-06-10,2026-06-25,2026-06-25
