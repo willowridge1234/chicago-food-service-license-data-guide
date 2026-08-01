@@ -61,24 +61,11 @@ Chicago Data Portal (Socrata):
 - Update frequency: **daily**, per the dataset's own description
 - Attribution: City of Chicago
 
-This is the same public source the actor linked above reads. Nothing about accessing it
-is secret or unusual — it's a standard, documented open-data endpoint that anyone can
-query directly, for example:
-
-```bash
-curl -G "https://data.cityofchicago.org/resource/r5kz-chrr.json" \
-  --data-urlencode 'license_description=Retail Food Establishment' \
-  --data-urlencode 'application_type=ISSUE' \
-  --data-urlencode 'license_status=AAI' \
-  --data-urlencode '$where=date_issued > '"'"'2026-07-01'"'"'' \
-  --data-urlencode '$order=date_issued DESC' \
-  --data-urlencode '$limit=1000'
-```
-
-That single request, run on a schedule and de-duplicated over time, is the entire
-"secret" behind a newly-licensed-restaurant feed. What a paid tool adds is scheduling,
-delta tracking across runs, and a maintained export shape — not access to a different
-data source.
+Nothing about accessing it is secret or unusual — it's a standard, documented open-data
+endpoint. You can query the SODA API directly with your own filters (for example, by
+`license_description`, `application_type`, `license_status`, and a date range) or pull
+the full CSV/JSON export and filter locally; Socrata's own API docs, linked from the
+dataset page above, cover the supported query parameters.
 
 A companion dataset, **Business Owners** (`data.cityofchicago.org`, dataset id
 `ezma-pppn`), can be joined on `account_number` if you need registered-owner details.
